@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add User</title>
+</head>
+<body>
+    <form method="POST" action="{% url 'add_user' %}">
+        {% csrf_token %}
+        <label>First Name:</label><input type="text" name="first_name"><br>
+        <label>Last Name:</label><input type="text" name="last_name"><br>
+        <button type="submit">Add User</button>
+    </form>
+</body>
+</html>
