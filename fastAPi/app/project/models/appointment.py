@@ -10,7 +10,8 @@ class Appointment(Base):
     doctor_id = Column(Integer, ForeignKey("users.id"))
     date = Column(Date, nullable=False)
     time = Column(Time, nullable=False)
-    status = Column(String(20), default="Pending")  # 'Pending', 'Approved', 'Rejected'
+    patientname = Column(String(50), nullable=False)
+    status = Column(String(20), default="Pending")  
     notes = Column(Text, nullable=True)
 
     # Relationships
