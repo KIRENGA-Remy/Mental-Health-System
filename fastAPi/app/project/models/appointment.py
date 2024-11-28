@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, ForeignKey, String, Date, Time, Text
 from sqlalchemy.orm import relationship
 from ..database import Base 
 
-class Appointment(Base):
+class AppointmentModel(Base):
     __tablename__ = "appointments"
 
     id = Column(Integer, primary_key=True, index=True)

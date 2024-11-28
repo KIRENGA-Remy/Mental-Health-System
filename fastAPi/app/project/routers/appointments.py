@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
-from ..models.appointment import Appointment
 from ..models.user import User
+from ..models.appointment import AppointmentModel
 from ..crud.appointments import get_appointment_by_id, get_appointments
 from ..schemas.appointment import AppointmentCreate, AppointmentResponse, Appointment
 from ..utils import get_current_user
@@ -24,21 +24,25 @@ async def create_appointment(
     doctor = db.query(User).filter(User.id == appointment_data.doctor_id, User.role == "doctor").first()
     if not doctor:
         raise HTTPException(status_code=404, detail="Doctor not found")
+    
+    # Extract patientname from current_user
+    patient_name = current_user.username
 
-    # Create appointment
-    new_appointment = Appointment(
-        patient_id=current_user.id,
-        doctor_id=doctor.id,
+    # Create appointment using current_user's name
+    new_appointment = AppointmentModel(
         date=appointment_data.date,
         time=appointment_data.time,
-        patientname=current_user.username,
-        notes=appointment_data.notes
+        status=appointment_data.status,
+        patientname=patient_name,
+        notes=appointment_data.notes,
+        doctor_id=appointment_data.doctor_id,
+        patient_id=current_user.id
     )
     db.add(new_appointment)
     db.commit()
     db.refresh(new_appointment)
 
-    return new_appointment  
+    return new_appointment
 
 
 # Approve Appointment
@@ -99,14 +103,19 @@ async def reject_appointment(
 @router.get("/get_appointment/{appointment_id}", response_model=Appointment)
 def get_appointment_by_id(
     appointment_id: int, 
-    doctor_id: Optional[int] = None, 
-    patientname: Optional[str] = None,
+    current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
-    # Retrieve appointment by doctor_id or patientname or both
-    appointment = get_appointment_by_id(db, doctor_id=doctor_id, patientname=patientname)
+    # Retrieve appointment by ID
+    appointment = db.query(Appointment).filter(Appointment.id == appointment_id).first()
     
     if not appointment:
         raise HTTPException(status_code=404, detail="Appointment not found")
     
+    # Ensure patient or assigned doctor can view it
+    if current_user.role == "patient" and appointment.patient_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Access denied")
+    if current_user.role == "doctor" and appointment.doctor_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Access denied")
+
     return appointment

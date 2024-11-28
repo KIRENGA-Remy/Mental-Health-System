@@ -1,2 +1,2 @@
 from .user import User
-from .appointment import Appointment
+from .appointment import AppointmentModel

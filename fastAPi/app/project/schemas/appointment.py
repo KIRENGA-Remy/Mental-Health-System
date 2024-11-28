@@ -3,16 +3,6 @@ from typing import Optional
 from datetime import date, time
 
 # Schema for creating an appointment (data received from client)
-class AppointmentCreate(BaseModel):
-    doctor_id: int  # Doctor's ID (foreign key)
-    date: date  # Appointment date
-    time: time  # Appointment time
-    patientname: str
-    notes: Optional[str] = Field(None, description="Additional notes for the appointment")
-
-    class Config:
-        from_attributes = True  # Replaced orm_mode with from_attributes
-
 # Schema for reading an appointment (data sent to client)
 # class AppointmentResponse(BaseModel):
 #     id: int
@@ -27,14 +17,6 @@ class AppointmentCreate(BaseModel):
 #     class Config:
 #         from_attributes = True  # Replaced orm_mode with from_attributes
 
-
-class AppointmentResponse(AppointmentCreate):
-    id: int
-    patient_id: int
-    status: str
-
-    class Config:
-        from_attributes = True
 
 # Schema for updating an appointment's status
 class AppointmentStatusUpdate(BaseModel):
@@ -58,3 +40,21 @@ class Appointment(AppointmentBase):
     patient_id: int
     class Config:
         from_attributes = True
+
+# Model used for creating a new appointment (id is excluded)
+class AppointmentCreate(BaseModel): 
+    date: date
+    time: time
+    status: Optional[str] = "Pending"
+    notes: Optional[str] = None
+    doctor_id: int
+
+# Model used for returning appointment data (id is included)
+class AppointmentResponse(AppointmentBase):
+    id: int
+    patient_id: int
+    doctor_id: int
+    patientname: str
+
+    class Config:
+        from_attributes = True 
