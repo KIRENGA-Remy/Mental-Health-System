@@ -46,21 +46,15 @@ class AppointmentStatusUpdate(BaseModel):
 
 # Schema for appointments (for listing appointments)
 class AppointmentBase(BaseModel):
-    doctor_id: int
-    patientname: str
     date: date
     time: time
-    status: str
+    patientname: str
+    status: Optional[str] = "Pending"
     notes: Optional[str] = None
-
-    class Config:
-        from_attributes = True
 
 class Appointment(AppointmentBase):
     id: int
-    status: str
     doctor_id: int
     patient_id: int
-
     class Config:
         from_attributes = True

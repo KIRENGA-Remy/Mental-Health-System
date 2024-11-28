@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from ..models.appointment import Appointment
 from ..models.user import User
 from ..crud.appointments import get_appointment_by_id, get_appointments
-from ..schemas.appointment import AppointmentCreate, AppointmentResponse
+from ..schemas.appointment import AppointmentCreate, AppointmentResponse, Appointment
 from ..utils import get_current_user
 from ..database import get_db
 from typing import Optional
