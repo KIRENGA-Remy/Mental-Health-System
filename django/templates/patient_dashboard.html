@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .dashboard-content {
+            margin-top: 20px;
+        }
+        .table-scrollable {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    {% include 'navbar.html' %}
+    <div class="container dashboard-content">
+        <h2 class="mb-4">Dashboard</h2>
+        <h4>Upcoming Appointments</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Doctor</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for appointment in appointments %}
+                <tr>
+                    <td>{{ appointment.doctor }}</td>
+                    <td>{{ appointment.date }}</td>
+                    <td>{{ appointment.status }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    
+        <h4>Health Records</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Doctor</th>
+                    <th>Notes</th>
+                    <th>Prescription</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for record in health_records %}
+                <tr>
+                    <td>{{ record.doctor }}</td>
+                    <td>{{ record.notes }}</td>
+                    <td>{{ record.prescription }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
