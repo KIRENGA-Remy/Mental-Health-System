@@ -10,7 +10,7 @@ class AppointmentCreate(BaseModel):
     notes: Optional[str] = Field(None, description="Additional notes for the appointment")
 
     class Config:
-        orm_mode = True  # Allows compatibility with SQLAlchemy models
+        from_attributes = True  # Replaced orm_mode with from_attributes
 
 # Schema for reading an appointment (data sent to client)
 class AppointmentResponse(BaseModel):
@@ -23,11 +23,11 @@ class AppointmentResponse(BaseModel):
     notes: Optional[str]
 
     class Config:
-        orm_mode = True
+        from_attributes = True  # Replaced orm_mode with from_attributes
 
 # Schema for updating an appointment's status
 class AppointmentStatusUpdate(BaseModel):
     status: str  # New status: 'Pending', 'Approved', 'Rejected'
 
     class Config:
-        orm_mode = True
+        from_attributes = True  # Replaced orm_mode with from_attributes
