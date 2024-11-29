@@ -154,3 +154,34 @@ def get_appointment_by_id(
         raise HTTPException(status_code=403, detail="Access denied: Invalid role.")
 
     return appointment
+
+
+@router.delete("/delete_appointment/{appointment_id}", status_code=status.HTTP_200_OK)
+async def delete_appointment(
+    appointment_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    # Ensure only patients can delete appointments
+    if current_user.role != "patient":
+        raise HTTPException(status_code=403, detail="Only patients can delete their appointments")
+
+    # Retrieve the appointment by ID
+    appointment = db.query(AppointmentModel).filter(AppointmentModel.id == appointment_id).first()
+
+    if not appointment:
+        raise HTTPException(status_code=404, detail="Appointment not found")
+
+    # Ensure the patient requesting deletion is the one who created the appointment
+    if appointment.patient_id != current_user.id:
+        raise HTTPException(status_code=403, detail="Access denied: You can only delete your own appointments")
+
+    # Delete the appointment
+    try:
+        db.delete(appointment)
+        db.commit()
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="An error occurred while deleting the appointment")
+
+    return {"message": "Appointment deleted successfully."}
