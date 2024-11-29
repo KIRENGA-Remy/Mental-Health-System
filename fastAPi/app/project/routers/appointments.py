@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from ..models.user import User
 from ..models.appointment import AppointmentModel
 from ..crud.appointments import get_appointment_by_id, get_appointments
-from ..schemas.appointment import AppointmentCreate, AppointmentResponse, Appointment
+from ..schemas.appointment import AppointmentCreate, AppointmentResponse
 from ..utils import get_current_user
 from ..database import get_db
 from typing import Optional
@@ -42,7 +42,16 @@ async def create_appointment(
     db.commit()
     db.refresh(new_appointment)
 
-    return new_appointment
+    return {
+        "id": new_appointment.id,
+        "date": new_appointment.date,
+        "time": new_appointment.time,
+        "status": new_appointment.status,
+        "notes": new_appointment.notes,
+        "patient_id": new_appointment.patient_id,
+        "doctor_id": new_appointment.doctor_id,
+        "patientname": new_appointment.patientname
+    }
 
 
 # Approve Appointment
@@ -50,27 +59,37 @@ async def create_appointment(
 async def approve_appointment(
     appointment_id: int,
     db: Session = Depends(get_db),
-    current_user: User = Depends(get_current_user)
+    current_user: User = Depends(get_current_user),
 ):
     # Ensure the current user is a doctor
     if current_user.role != "doctor":
         raise HTTPException(status_code=403, detail="Only doctors can approve appointments")
 
     # Retrieve the appointment
-    appointment = db.query(Appointment).filter(Appointment.id == appointment_id).first()
+    appointment = db.query(AppointmentModel).filter(AppointmentModel.id == appointment_id).first()
     if not appointment:
         raise HTTPException(status_code=404, detail="Appointment not found")
+    
+    # Check if already approved
+    if appointment.status == "Approved":
+        raise HTTPException(status_code=400, detail="Appointment is already approved")
     
     # Ensure the doctor is assigned to this appointment
     if appointment.doctor_id != current_user.id:
         raise HTTPException(status_code=403, detail="You are not authorized to approve this appointment")
 
-    # Update the status
-    appointment.status = "Approved"
-    db.commit()
-    db.refresh(appointment)
+    try:
+        appointment.status = "Approved"
+        db.commit()
+        db.refresh(appointment)
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="An error occurred while approving the appointment")
     
-    return {"message": f"Appointment of {appointment.patientname} has been approved successfully."}
+    return {
+        "message": f"Appointment of {appointment.patientname} has been approved successfully.",
+        "appointment": appointment
+    }
 
 # Reject Appointment
 @router.put("/reject/{appointment_id}", status_code=status.HTTP_200_OK)
@@ -84,38 +103,54 @@ async def reject_appointment(
         raise HTTPException(status_code=403, detail="Only doctors can reject appointments")
 
     # Retrieve the appointment
-    appointment = db.query(Appointment).filter(Appointment.id == appointment_id).first()
+    appointment = db.query(AppointmentModel).filter(AppointmentModel.id == appointment_id).first()
     if not appointment:
         raise HTTPException(status_code=404, detail="Appointment not found")
+    
+    if appointment.status == "Approved":
+        raise HTTPException(status_code=400, detail="Appointment is already approved")
     
     # Ensure the doctor is assigned to this appointment
     if appointment.doctor_id != current_user.id:
         raise HTTPException(status_code=403, detail="You are not authorized to reject this appointment")
 
     # Update the status
-    appointment.status = "Rejected"
-    db.commit()
-    db.refresh(appointment)
+    try:
+        appointment.status = "Rejected"
+        db.commit()
+        db.refresh(appointment)
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail="An error occurred while rejecting the appointment")
     
-    return {"message": f"Appointment of {appointment.patientname} has been rejected successfully."}
+    return {
+        "message": f"Appointment of {appointment.patientname} has been rejected successfully.",
+        "Appointment": appointment
+    }
 
 
-@router.get("/get_appointment/{appointment_id}", response_model=Appointment)
+@router.get("/get_appointment/{appointment_id}", response_model=AppointmentResponse)
 def get_appointment_by_id(
     appointment_id: int, 
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
     # Retrieve appointment by ID
-    appointment = db.query(Appointment).filter(Appointment.id == appointment_id).first()
+    appointment = db.query(AppointmentModel).filter(AppointmentModel.id == appointment_id).first()
     
     if not appointment:
         raise HTTPException(status_code=404, detail="Appointment not found")
     
-    # Ensure patient or assigned doctor can view it
-    if current_user.role == "patient" and appointment.patient_id != current_user.id:
-        raise HTTPException(status_code=403, detail="Access denied")
-    if current_user.role == "doctor" and appointment.doctor_id != current_user.id:
-        raise HTTPException(status_code=403, detail="Access denied")
+    # Check access based on user role
+    if current_user.role == "patient":
+        if appointment.patient_id != current_user.id:
+            raise HTTPException(status_code=403, detail="Access denied: This appointment does not belong to you.")
+    
+    elif current_user.role == "doctor":
+        if appointment.doctor_id != current_user.id:
+            raise HTTPException(status_code=403, detail="Access denied: You are not assigned to this appointment.")
+
+    else:
+        raise HTTPException(status_code=403, detail="Access denied: Invalid role.")
 
     return appointment
