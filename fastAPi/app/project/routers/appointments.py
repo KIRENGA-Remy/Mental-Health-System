@@ -185,3 +185,12 @@ async def delete_appointment(
         raise HTTPException(status_code=500, detail="An error occurred while deleting the appointment")
 
     return {"message": "Appointment deleted successfully."}
+
+
+#Retrieve all appointments without login in
+router.get("/appointment", response_model=AppointmentResponse)
+async def get_all_appointments(db: Session = Depends(get_db)):
+    appointments = db.query(AppointmentModel).all()
+    if not appointments:
+        raise HTTPException(status_code=404,detail="No appointments found!")
+    return appointments

@@ -27,7 +27,7 @@ def fetch_appointments():
 
         return appointments_df, users_df
     except Exception as e:
-        print(f"Error fetching data from the database: {e}")
+        print(f"Error fetching data: {e}")
         return None, None
 
 # Process the data by merging, cleaning, and preprocessing
