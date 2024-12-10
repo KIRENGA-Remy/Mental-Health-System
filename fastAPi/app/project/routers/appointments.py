@@ -6,7 +6,8 @@ from ..crud.appointments import get_appointment_by_id, get_appointments
 from ..schemas.appointment import AppointmentCreate, AppointmentResponse
 from ..utils import get_current_user
 from ..database import get_db
-from typing import Optional
+from typing import Optional, List
+from ..utils.dataframe import fetch_appointments_as_dataframe
 
 router = APIRouter()
 
@@ -187,10 +188,20 @@ async def delete_appointment(
     return {"message": "Appointment deleted successfully."}
 
 
-#Retrieve all appointments without login in
-router.get("/appointment", response_model=AppointmentResponse)
-async def get_all_appointments(db: Session = Depends(get_db)):
+@router.get("/appointments", response_model=List[AppointmentResponse])
+def get_all_appointments_as_dataframe(db: Session = Depends(get_db)):
+    """
+    Retrieves all appointments from the database and converts them to a pandas DataFrame.
+    """
+    # Retrieve all appointments
     appointments = db.query(AppointmentModel).all()
     if not appointments:
-        raise HTTPException(status_code=404,detail="No appointments found!")
+        raise HTTPException(status_code=404, detail="No appointments found!")
+
+    # Convert to DataFrame
+    appointments_df = fetch_appointments_as_dataframe(appointments)
+
+    # Perform any additional DataFrame operations (if needed)
+    print("Appointments DataFrame:\n", appointments_df)
+
     return appointments
