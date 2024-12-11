@@ -677,3 +677,5 @@ zope.event==5.0
 zope.interface==7.1.0
 zstandard==0.23.0
 sqlalchemy
+pandas
+requests

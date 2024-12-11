@@ -1,0 +1,301 @@
+,vin,manufacturer,year,color,body_type,engine_type,transmission,fuel_type,seating_capacity,kilometers_driven,vehicle_condition_status,selling_price,owner_name,owner_profession,owner_age,owner_district,purchase_price,purchase_date
+0,QPHT622T547G7YY51,Chevrolet,1999,orange,Convertible,electric,manual,biodiesel,7,84.65,active,256.19,KANEZA Michele Phoenix,agriculturalist,65,kigali_kicukiro,256.19,2018-02-15
+1,USILGOGS66KQDI8AS,Toyota,1992,black,SUV,diesel,manual,hybrid,8,57.65,active,159.80,UHIRIWE CHRISOSTOM,writer,40,west_karongi,159.80,2005-11-14
+2,4H0LUVAZE5ZKU6B8C,Volkswagen,1991,blue,Wagon,diesel,automatic,hybrid,8,38.08,inactive,293.10,IRIBAGIZA Fanny,journalist,64,south_nyamagabe,293.10,2019-02-04
+3,HKQU9VN0D0WYTD4P1,Toyota,1994,gray,Hatchback,petrol,manual,gasoline,3,34.99,inactive,729.63,UWUMUGISHA Heloise Rugie,engineer,53,south_kamonyi,729.63,2002-03-07
+4,UC1OGL1I0CET7OHZP,Audi,2000,metallic_silver,Sedan,petrol,manual,hydrogen,5,27.93,active,418.36,NDAYISHIMIYE Gilbert,blacksmith,70,east_kirehe,418.36,2018-09-04
+5,N0KAHHRRAPLQAPSF0,Audi,1996,pearl_white,Truck,electric,automatic,hybrid,4,41.57,active,313.27,BISIZI MUHIRE Ighor,banker,93,east_ngoma,313.27,2001-09-04
+6,WC3X9LEXEAARHVB6X,Audi,1996,white,Sedan,petrol,automatic,hydrogen,9,29.72,inactive,781.13,BIGWI SHYAKA Valentin,counselor,20,south_kamonyi,781.13,2002-08-11
+7,YH87OGABPHZ85TPMK,BMW,1992,gold,Wagon,electric,automatic,diesel,9,9.98,active,628.09,MAJURA Antony,physicist,84,south_gisagara,628.09,2004-08-08
+8,G7EQSPYZ4NN0NF4U2,Toyota,1999,gray,Sedan,diesel,manual,diesel,9,39.58,active,358.64,UMUGWANEZA Alice,cleaner,87,south_gisagara,358.64,2008-03-12
+9,RJLW6DBGU62FQVJEC,Audi,1998,black,Convertible,electric,manual,electric,5,45.94,active,375.81,SHEMA ALAIN BARSIME,firefighter,63,east_kayonza,375.81,2014-06-24
+10,XU707TOBQ92MX1VNB,BMW,2000,metallic_brown,SUV,electric,manual,gasoline,9,34.14,inactive,470.75,IRAKARAMA Laurent,agriculturalist,94,kigali_nyarugenge,470.75,2015-05-02
+11,FBW2NTAXDC9X9JQKA,Hyundai,1992,metallic_silver,Convertible,electric,manual,hydrogen,10,31.49,active,631.94,MURANGWA Pacifique,counselor,87,east_kayonza,635.29,2008-12-25
+12,2PZYBWHIFJBPM6O2G,Toyota,1992,gray,Van,electric,manual,biodiesel,5,51.24,active,239.19,NSHUTI MULINDWA Christian,carpenter,25,south_muhoza,239.19,2013-09-06
+13,5IDXSJEABK00CZFYM,Chevrolet,1996,metallic_gray,Wagon,electric,automatic,ethanol,4,97.17,inactive,440.72,IMFURA MURINDA Hyguette,baker,80,east_rwamagana,440.72,2009-08-27
+14,NYZOLXQOAOIWK0X94,Toyota,1993,metallic_red,Coupe,petrol,manual,hydrogen,5,50.21,active,811.60,RUTAGENGWA ASANTE Bruce,lawyer,47,kigali_kicukiro,811.60,2005-12-01
+15,14QKZBV75ICEQYCIM,Toyota,1999,red,Wagon,petrol,manual,hydrogen,6,44.13,inactive,204.21,NIYONKURU Gloria,economist,69,east_bugesera,204.21,2024-02-26
+16,9B0C7H2DQWH8XFN6K,Toyota,1997,gray,Coupe,petrol,automatic,hydrogen,7,24.5,inactive,42.06,KARIGIRWA Sonia Olga,secretary,84,north_gakenke,42.06,2023-09-06
+17,RGUCDTEW4CAFC6AMJ,Chevrolet,1999,orange,Wagon,diesel,automatic,hybrid,9,75.26,active,925.83,KAWACU RUGIRANEZA Arnaud Kennedy,professor,52,north_rulindo,925.83,2017-09-13
+18,DAVTK4C7TNTOMVD7Z,Audi,1996,metallic_brown,Wagon,diesel,automatic,ethanol,10,21.55,active,341.06,UWUMUGISHA Heloise Rugie,judge,100,kigali_gasabo,349.72,2020-12-22
+19,WFLGYBWQBYWKBIKYU,Mercedes,1993,metallic_brown,Sedan,electric,automatic,hydrogen,10,31.29,inactive,940.93,MUNEZERO IMPANO CHRISTELLA,civil_engineer,21,north_burera,940.93,2018-05-04
+20,OX5H44DIEM8USY0TI,Toyota,1999,silver,Truck,petrol,automatic,ethanol,8,24.73,inactive,593.98,MUGISHA ABBIGAEL,teacher,49,west_nyabihu,607.61,2010-05-08
+21,EZUNVGDI4OQJYJ0AY,Chevrolet,1993,metallic_blue,Wagon,diesel,automatic,hybrid,2,96.61,inactive,918.96,NIYIDUHUMUGISHA Eden,butcher,35,east_rwamagana,918.96,2021-02-21
+22,NV0A1WHVCFY6ACR9I,Ford,1991,metallic_silver,Sedan,electric,automatic,gasoline,4,44.6,inactive,495.87,RUZINDANA Tehila,engineer,45,west_nyamasheke,511.73,2016-07-24
+23,3IYFQ7FPUIF5SHJFR,Hyundai,1997,red,Sedan,diesel,manual,diesel,2,24.67,active,818.66,USHIMIRWA INGABIRE Benitha,composer,80,west_nyabihu,818.66,2000-09-20
+24,1OIXT91WCSAICEYSK,Audi,1998,metallic_red,SUV,electric,automatic,ethanol,4,37.89,active,612.95,IMPANO Blessed Winner,veterinarian,62,kigali_kicukiro,620.01,2016-10-11
+25,Q350T6MWRO50TV2B8,Hyundai,1993,gray,Convertible,diesel,automatic,electric,3,93.17,inactive,787.45,KEZA Delice,lecturer,21,west_rutsiro,787.45,2003-11-21
+26,NKATM25NGA68MEBZM,Audi,1997,yellow,Truck,diesel,automatic,gasoline,6,69.35,inactive,980.27,MURANGWA Pacifique,baker,64,west_nyamasheke,980.27,2004-11-19
+27,KCCR0X0JEKJVDB89P,Ford,1998,green,Van,diesel,manual,electric,5,52.38,inactive,879.31,SUGIRA Yvan,pilot,75,north_burera,879.31,2003-04-23
+28,VCM6PAJ9VYSXL2VL1,Volkswagen,1994,chrome,Wagon,electric,automatic,gasoline,7,71.75,active,936.73,KALISA INEZA Giovanni,pilot,55,east_kayonza,941.93,2001-03-04
+29,UXV3Y44S8U1V86IY7,Audi,1994,silver,Truck,electric,manual,hydrogen,8,39.25,active,302.23,INEZA Axelle,photographer,45,west_rutsiro,302.23,2005-09-14
+30,C3D481P57GVX61K1D,Toyota,1992,gray,Convertible,electric,manual,biodiesel,7,99.66,inactive,111.39,SUGIRA Yvan,painter,62,kigali_gasabo,111.39,2018-03-05
+31,TY47KDQWAH3M2437I,Audi,1991,purple,Sedan,electric,manual,hydrogen,10,32.15,inactive,863.23,IMFURA MURINDA Hyguette,programmer,59,south_ruhango,887.64,2015-08-15
+32,COFHADVLT8NT3JDUT,Hyundai,1998,chrome,SUV,petrol,manual,hydrogen,8,10.32,inactive,604.86,Ikirezi Unejumutima Honorine,builder,23,north_musanze,604.86,2008-07-03
+33,K4R0AYS58YK8WR7UT,Ford,1999,chrome,Truck,electric,manual,diesel,2,65.94,active,569.56,NDIZIHIWE Regis,radiologist,56,east_kayonza,599.68,2022-12-04
+34,NRXFBOS88PMDK6MJX,Nissan,2000,black,Wagon,electric,manual,diesel,4,7.01,inactive,156.78,IZERE Louise,mechanic,62,south_huye,156.78,2021-02-07
+35,0500NNQKYXLG81XJ4,Toyota,1995,metallic_gray,Wagon,diesel,automatic,hybrid,7,25.8,active,864.18,KABANDA JORDAN,painter,33,west_rusizi,864.18,2013-12-28
+36,SZK9X5D5YFBEE47ET,Nissan,1991,silver,SUV,petrol,automatic,electric,7,57.67,active,37.69,NDIZEYE Herve,musician,68,west_nyamasheke,37.69,2012-11-03
+37,W6H2ATD400SNVJ26O,Ford,1996,pearl_white,Hatchback,petrol,manual,ethanol,2,34.94,active,662.02,KANEZA Amandine,real_estate_agent,43,south_nyaruguru,698.75,2015-07-16
+38,EJ7TG1NAPAE5949LN,BMW,1999,white,Wagon,electric,manual,biodiesel,7,45.22,active,384.21,DUKUNDANE FURAHA Yves Derick,singer,80,west_rubavu,384.21,2018-08-05
+39,9FR31CGQZ81M0T58T,Mercedes,1993,gray,Hatchback,petrol,automatic,hybrid,2,4.89,active,830.37,INEZA Bright,mechanic,84,kigali_kicukiro,830.37,2018-09-14
+40,CQLVIIZFNGJ53FY14,Mercedes,1998,brown,Coupe,electric,automatic,ethanol,7,62.74,active,254.19,TUYUBAHE EDOUARD,coach,88,kigali_gasabo,264.51,2023-09-06
+41,28DNC3KT931V8Q4VW,Ford,2000,metallic_silver,Van,diesel,manual,hybrid,4,8.96,inactive,905.95,KARIGIRWA Sonia Olga,hotel_manager,41,north_musanze,905.95,2006-01-02
+42,GZYLG7JDHJ0B0O938,Audi,1993,yellow,Hatchback,petrol,manual,diesel,10,62.74,active,375.39,KABANDA MANZI Cedrick,actress,19,east_bugesera,396.17,2009-05-02
+43,1LWJLBN6STMKOXX6M,Volkswagen,1993,pearl_white,Convertible,diesel,manual,gasoline,9,25.57,inactive,788.10,BUGINGO Elua,construction_worker,53,south_ruhango,788.10,2019-05-28
+44,DSSJZ1OUWK8UVYBOD,Mercedes,1994,green,Van,diesel,manual,hydrogen,4,33.63,inactive,970.38,BANA EMMY TRESOR,consultant,46,west_ngororero,970.38,2011-05-14
+45,5X9XZXYZNWLX57PQE,Ford,1990,red,Van,petrol,automatic,electric,6,3.17,active,512.40,Kayigamba Bonita,secretary,99,east_kirehe,521.11,2010-03-18
+46,RJFZ07J89DJCZC6SR,Audi,1994,metallic_silver,Wagon,diesel,automatic,diesel,8,2.11,active,131.04,SHEMA ALAIN BARSIME,actor,99,north_gakenke,134.95,2019-01-07
+47,VNI7OXJ5LALWOI217,BMW,1995,metallic_brown,Truck,electric,manual,hydrogen,8,87.15,inactive,669.69,ISHARA Gold,butcher,91,east_nyagatare,685.59,2002-03-06
+48,8JJ5PDICBRAH4U9OC,Toyota,1998,white,Sedan,petrol,manual,gasoline,6,24.44,inactive,223.06,UWIRINGIYIMANA Martha,chemist,67,south_huye,223.06,2000-10-15
+49,YP3MOYHNFLI68E4LX,Volkswagen,1991,metallic_silver,Sedan,petrol,manual,biodiesel,10,22.66,active,314.15,NIYOBYOSE Isaac Precieux,hairdresser,30,north_gakenke,333.47,2010-11-21
+50,JICK970S8Y6OCPYVK,Volkswagen,1992,red,SUV,electric,manual,hybrid,10,25.84,active,436.11,UWASE Sonia,student,84,east_gatsibo,436.11,2003-04-15
+51,FQOUZB4PIAMIVNZZV,Nissan,1996,metallic_blue,Coupe,diesel,manual,biodiesel,9,77.32,inactive,735.93,TUYUBAHE EDOUARD,counselor,54,south_huye,770.90,2004-08-14
+52,NER3BR9L0O9M50AK0,Volkswagen,1995,metallic_red,SUV,electric,manual,biodiesel,3,61.69,active,360.30,BIENVENUE ALLIANCE DIEU D' AMOUR,blacksmith,26,west_karongi,360.30,2018-10-12
+53,TSHSPQADG02HFZDDR,Nissan,1995,metallic_brown,Truck,electric,manual,ethanol,10,34.66,active,484.42,NYISHIMENTE Lois,builder,44,south_nyaruguru,484.42,2007-12-23
+54,VACN49QD21OY6TJ2G,Ford,1997,silver,SUV,diesel,automatic,diesel,2,84.52,inactive,494.06,BISIZI MUHIRE Ighor,economist,84,west_nyabihu,524.57,2002-08-02
+55,REAUY2PNX9V2NOIMV,Mercedes,1990,metallic_gray,Van,diesel,manual,biodiesel,8,9.46,inactive,608.20,IZERE Anna,doctor,21,west_ngororero,639.37,2009-02-26
+56,IC1UJ2AD2OWDOVI7U,Nissan,1999,blue,Hatchback,electric,automatic,diesel,7,1.68,active,714.47,MURANGWA Pacifique,painter,86,south_nyaruguru,714.47,2006-05-24
+57,RFY6573UL8OUFMTX3,Volkswagen,1995,gray,Convertible,diesel,automatic,electric,4,8.89,inactive,123.79,BYIRINGIRO Samuel,professor,42,east_rwamagana,171.29,2004-12-01
+58,TE1BKYFPPPP4RL0O2,Hyundai,1990,black,Sedan,petrol,manual,gasoline,9,44.45,active,512.28,ZIGIRUMUGABE LOUIS MIGUEL,interpreter,86,east_bugesera,512.28,2017-03-20
+59,PGE51MTMD45OMBUB3,Hyundai,1998,gold,Coupe,electric,manual,ethanol,8,21.66,inactive,725.26,HITAYEZU FRANK DUFF,barber,73,kigali_nyarugenge,762.76,2019-10-16
+60,VJL9N288IXHDAGS61,Honda,1996,blue,Convertible,petrol,manual,gasoline,4,94.26,inactive,955.37,TUYUBAHE EDOUARD,translator,25,south_nyamagabe,955.37,2005-08-28
+61,ENXRLTGJR58787SE1,Mercedes,1998,blue,Wagon,petrol,automatic,hybrid,9,12.33,inactive,491.49,ISIMBI KEZA Lysa,consultant,78,west_rubavu,535.57,2007-06-08
+62,SM0HM285QZAEYRG8B,Audi,1991,metallic_brown,Truck,electric,automatic,ethanol,4,83.17,active,88.36,AMIZERO NSABIMANA Peace Tresor,radiologist,48,south_muhoza,133.33,2018-04-15
+63,9A5AMX1Y6760KIID8,Toyota,1993,green,Hatchback,petrol,automatic,hydrogen,6,21.26,active,436.24,UMUGWANEZA Alice,librarian,66,south_muhoza,436.24,2013-03-01
+64,PQRP0D9G4T9W0EMAT,Audi,1992,blue,Hatchback,petrol,manual,biodiesel,4,91.83,inactive,125.40,UWIRINGIYIMANA Martha,actor,78,west_karongi,125.40,2023-07-09
+65,KFT5ZJARVGF7KM1HK,Toyota,1996,green,Van,diesel,automatic,diesel,7,2.67,inactive,848.73,UMUGWANEZA Anaïse,dietitian,51,east_kirehe,848.73,2016-04-23
+66,4TBF2HUY7GZ6WYUFQ,Mercedes,1991,orange,Van,petrol,manual,ethanol,10,3.83,active,409.07,IZERE Anna,researcher,80,south_nyamagabe,409.07,2019-09-04
+67,90BFDOIX10LU8MZHU,BMW,1994,blue,Wagon,petrol,manual,hydrogen,6,67.84,inactive,270.97,BIGWI SHYAKA Valentin,physicist,46,west_rusizi,331.70,2001-06-26
+68,PR8LNWVJ4I1OBQPHP,Toyota,1999,purple,Sedan,diesel,automatic,ethanol,7,15.41,inactive,734.12,ISHIMWE Vainqueur,construction_worker,24,west_rubavu,734.12,2000-10-08
+69,NNBIP1XMDRNDZOFO0,Chevrolet,1992,metallic_green,Sedan,diesel,automatic,hydrogen,8,62.27,active,520.23,TUYUBAHE EDOUARD,lecturer,72,south_ruhango,577.38,2021-09-15
+70,AUSKTEF9QLRM30QLO,Chevrolet,1993,metallic_gray,Hatchback,electric,automatic,electric,3,12.62,inactive,445.25,IRAKOZE PRINCE BONHEUR,coach,93,west_karongi,456.40,2004-02-13
+71,6Y45K8OSLJTAN2ICR,BMW,1992,blue,Wagon,electric,manual,biodiesel,3,8.62,inactive,984.77,AHIMBAZWE MPUHWE Divine Nikita,civil_engineer,43,east_gatsibo,1050.54,2018-03-24
+72,AJZM1G5FCU8OERA9Y,Ford,1991,gray,Sedan,electric,manual,hybrid,7,95.88,inactive,930.93,NDAYISHIMIYE Gilbert,administrator,66,south_nyaruguru,999.72,2019-05-04
+73,0A03VUOV9O7NPLPXE,Nissan,1999,blue,Wagon,electric,automatic,biodiesel,7,50.08,inactive,466.30,RUTAGANIRA YANISSE NTWALI,hairdresser,67,south_kamonyi,470.26,2020-07-25
+74,2182MB1RGPLYTZXXY,Chevrolet,1991,metallic_brown,Truck,electric,manual,diesel,8,38.71,inactive,135.29,NSHUTI MULINDWA Christian,geologist,57,north_musanze,159.58,2021-10-06
+75,7WZO9GLFBOK8NZAPL,Audi,1997,green,Sedan,petrol,automatic,electric,2,31.91,inactive,347.46,UMUGWANEZA Alice,cleaner,92,east_nyagatare,347.46,2002-11-15
+76,LR17EKT4YCZ0R3QEF,Honda,1995,matte_black,Coupe,electric,manual,diesel,8,75.8,inactive,248.70,RUTAGENGWA ASANTE Bruce,cleaner,76,east_nyagatare,248.70,2011-07-18
+77,01V8IBYK1TC29N0DT,Nissan,1991,yellow,Sedan,diesel,automatic,electric,5,39.2,active,623.42,DUSHIMIYIMANA Jazzy Bruno,translator,85,east_rwamagana,623.42,2015-02-11
+78,RF9GD3OLM7LLT0468,Hyundai,1999,metallic_black,Hatchback,petrol,manual,hydrogen,3,93.84,active,955.24,KALISA INEZA Giovanni,translator,82,east_bugesera,1007.69,2015-08-24
+79,6MSRTJL28KUDAF49J,Chevrolet,1993,green,Sedan,electric,automatic,hydrogen,3,79.85,inactive,860.54,NIYONSENGA Valens,firefighter,64,north_gicumbi,916.01,2012-07-04
+80,BP4F3UCA2I8VBE66W,Volkswagen,2000,gray,Truck,petrol,manual,hybrid,10,9.88,inactive,568.78,UWASE UTUJE Sandrine,real_estate_agent,24,south_gisagara,616.21,2019-08-22
+81,56XZAZZ4MW9X5CTOI,Volkswagen,1997,green,Wagon,diesel,manual,electric,3,44.91,active,936.62,ISIMBI KEZA Lysa,doctor,56,kigali_kicukiro,936.62,2018-01-04
+82,M8OZ8NN39L77Y60D6,Audi,1993,orange,Van,diesel,manual,hybrid,4,70.41,inactive,487.69,MUGISHA Puceau Precieux,truck_driver,85,east_rwamagana,515.45,2012-12-04
+83,GZ25G5IV4T51V8L2E,Volkswagen,1992,metallic_green,Sedan,diesel,manual,electric,6,33.07,inactive,608.48,IZERE Louise,receptionist,90,east_nyagatare,608.48,2006-11-07
+84,IMPB9XQ87H0JKTPPO,Ford,1994,metallic_blue,SUV,petrol,manual,biodiesel,10,92.0,active,970.27,GACURABWENGE Hirwa Vanessa,construction_worker,52,north_musanze,1043.90,2013-12-26
+85,JBNG77R2LWHJOTIWB,Audi,1991,pearl_white,SUV,diesel,manual,gasoline,3,35.55,inactive,480.70,KABALISA MUGISHA Melissa,cleaner,72,south_muhoza,480.70,2019-03-08
+86,E20HIE6ACUG9MUMNT,Ford,1998,metallic_green,Truck,diesel,automatic,biodiesel,10,64.22,inactive,183.90,BYIRINGIRO Emmanuel,agriculturalist,65,east_kayonza,183.90,2016-08-13
+87,PN6GO4WXBZ0SRYDLK,Ford,1993,blue,Truck,electric,automatic,electric,9,56.85,active,743.38,MUGISHA ABBIGAEL,politician,37,west_ngororero,743.38,2010-08-22
+88,3BQGCZ0O4KAA1ACQK,Volkswagen,1996,yellow,Coupe,petrol,automatic,gasoline,7,11.13,inactive,998.44,MUHIZI LILIAN BRIAN,waitress,48,east_kayonza,998.44,2013-12-16
+89,38TTXLY19GCC6SP2W,Volkswagen,1991,blue,Wagon,diesel,manual,electric,9,92.93,active,757.97,IGITANGAZA NOBLE PRINCE,chemist,61,south_huye,757.97,2013-05-07
+90,VQBI5IE5NYCIGCRRX,Honda,1991,purple,Hatchback,electric,automatic,electric,2,64.4,active,678.67,KALIZA ESTHER,programmer,26,east_ngoma,704.69,2012-02-01
+91,DLWG37ZA7JESKFZL1,Ford,1993,blue,SUV,electric,manual,diesel,8,39.99,inactive,619.46,CYIZERE Happy,graphic_designer,49,north_rulindo,631.93,2012-05-12
+92,B8633B2DVMCB7LUXV,Nissan,1997,metallic_brown,Convertible,diesel,manual,gasoline,4,32.56,active,971.00,UMUTONI UWASE SANDRA,optician,33,south_nyanza,1058.97,2022-05-01
+93,3HFK29GQ8FXW999DT,Toyota,1994,metallic_silver,Hatchback,electric,manual,hybrid,9,30.17,active,685.80,TUYUBAHE EDOUARD,engineer,57,south_muhoza,700.97,2006-11-22
+94,8GRFHNS9IIZUR11YI,Audi,1992,pearl_white,Van,diesel,automatic,ethanol,4,14.86,active,164.77,ISHIMWE PRINCE ARNAUD,pharmacist,40,south_huye,240.15,2020-07-10
+95,MH5CTAQ9LU8RVQWNR,Honda,1995,custom,Sedan,diesel,manual,ethanol,3,87.87,active,382.64,ISHARA Gold,administrator,51,kigali_nyarugenge,470.45,2016-01-12
+96,X5CYZ50S0CG35M7GK,Hyundai,1998,chrome,Truck,petrol,manual,hydrogen,6,16.95,inactive,457.73,MUTUYIMANA Joyeuse Ritha,other,55,south_nyaruguru,497.54,2003-07-09
+97,XZCJCJ3IA0NBEF1OK,Ford,1996,black,Sedan,petrol,manual,diesel,10,65.61,active,544.23,IRASUBIZA Divine,blacksmith,71,north_rulindo,544.23,2018-03-22
+98,Q819LEYWSK10YWAKM,Audi,1992,silver,SUV,diesel,manual,biodiesel,8,84.37,active,323.62,CYUZUZO IRAFASHA Sandra,driver,92,south_kamonyi,323.62,2005-10-07
+99,VWIYPTLQ548LT1SX5,Honda,1995,metallic_green,Truck,diesel,automatic,hydrogen,3,57.61,inactive,734.61,GISINGIZO Gloria,firefighter,27,west_rubavu,734.61,2014-10-21
+100,W57LVORFTS47ET9J0,Volkswagen,1998,pearl_white,SUV,petrol,manual,hydrogen,3,28.65,active,386.43,KABANDA JORDAN,civil_engineer,91,north_musanze,450.21,2024-07-22
+101,32WZUWEFTAU7H28LD,Hyundai,1997,orange,SUV,petrol,manual,biodiesel,2,95.34,active,686.20,UWIRINGIYIMANA Martha,doctor,59,south_gisagara,686.20,2014-01-26
+102,D16TUEXY55IVQ6JSP,Audi,1992,metallic_gray,Sedan,petrol,automatic,hydrogen,5,37.74,active,449.06,BYIRINGIRO Emmanuel,hairdresser,100,east_bugesera,449.06,2001-07-02
+103,FJ0DV14A09Y5L1SY5,Toyota,1993,metallic_brown,Coupe,electric,automatic,hydrogen,4,20.97,active,709.39,NIYONKURU Gloria,banker,32,east_nyagatare,750.37,2000-05-15
+104,NPBV8X1D05EMOYROL,BMW,1994,chrome,Truck,diesel,manual,electric,9,13.58,active,777.17,USHIMIRWA INGABIRE Benitha,designer,41,east_kayonza,796.45,2002-05-18
+105,FMUXTGNL6CKASY4C6,Audi,1999,metallic_green,Hatchback,diesel,automatic,gasoline,6,8.81,inactive,254.11,ZIGIRUMUGABE LOUIS MIGUEL,designer,88,south_gisagara,325.06,2001-11-16
+106,FSZU21579TG1SP0GL,Hyundai,1996,chrome,Coupe,petrol,automatic,hybrid,2,87.74,active,325.40,IZERE Louise,economist,45,west_karongi,404.81,2005-12-18
+107,98RNLSWM0YH56QQDC,BMW,1992,silver,Coupe,diesel,manual,diesel,7,63.56,active,190.10,ISHIMWE NZIZA Angelique,dentist,72,kigali_gasabo,190.10,2021-10-23
+108,AA7C5WBMYJKH1B9EF,Honda,1991,blue,Coupe,petrol,manual,hydrogen,8,38.86,active,236.27,UWIRINGIYIMANA Martha,firefighter,62,north_gicumbi,339.90,2019-12-11
+109,YQ0W9LILNKRZR00H1,Honda,1990,black,Convertible,electric,manual,ethanol,8,43.34,active,450.88,IMANISHIMWE Emmanuel,banker,77,east_rwamagana,528.77,2004-01-03
+110,WU3IE6DO6CYTA5SVR,Nissan,1997,brown,Convertible,petrol,automatic,biodiesel,2,8.85,active,162.41,NIBAKURE Josephine,dentist,90,south_nyaruguru,216.71,2009-08-01
+111,IIFV5GONEFT7UNZ4E,Nissan,1997,yellow,Hatchback,diesel,manual,biodiesel,9,75.7,active,547.20,MANZI Israel,barber,46,south_gisagara,561.37,2016-04-17
+112,7D9ES36PT0YW705JS,BMW,1993,yellow,Truck,diesel,manual,hybrid,10,1.26,active,460.63,IZERE Louise,engineer,29,west_nyamasheke,531.81,2002-11-25
+113,NVEOFXJ2REYUYTWIX,Ford,1994,metallic_green,Convertible,diesel,manual,hybrid,8,50.28,inactive,961.26,SASHA Ntwali,security_guard,47,south_kamonyi,961.26,2015-06-06
+114,NGJO434FWYMYHI28Z,Hyundai,1991,gold,Convertible,petrol,automatic,biodiesel,7,99.87,inactive,385.41,Byiringiro Aloys,gardener,30,west_rutsiro,493.89,2011-05-20
+115,A55XADAI1EQF053YZ,Ford,1998,gray,Coupe,petrol,automatic,hybrid,6,28.16,active,935.42,HATEGEKIMANA MICHAEL IVAN,police_officer,40,east_rwamagana,1005.17,2019-05-02
+116,WXVVVHV5JDWEEFE7H,Ford,2000,metallic_gray,Convertible,electric,automatic,diesel,6,76.78,active,133.47,NIYONKURU Gloria,physician,80,west_ngororero,153.25,2004-06-27
+117,ZR300L4GB6CHQ6YF5,Chevrolet,1997,brown,Truck,diesel,manual,hybrid,6,7.59,inactive,842.25,ARISANGA Ishimwe Roger,singer,73,west_karongi,842.25,2009-01-15
+118,YOAFXKPU8YXCFXVL1,Volkswagen,1996,metallic_green,Van,electric,manual,ethanol,5,68.62,active,708.49,UNYUZIMFURA ISHIMWE Joy Kevin,optician,66,east_rwamagana,824.77,2021-05-02
+119,Q8BWIXCF8EPYB9G4M,Volkswagen,1993,custom,Sedan,electric,manual,diesel,5,40.14,inactive,631.05,NSHUTI ISHIMWE ANGELO JOSEPH,programmer,87,west_karongi,695.56,2015-09-16
+120,9PGDWH8R8HT9DWHD8,Nissan,1990,metallic_blue,Hatchback,electric,automatic,biodiesel,7,61.57,inactive,350.67,KAWACU RUGIRANEZA Arnaud Kennedy,engineer,69,kigali_gasabo,410.93,2022-02-25
+121,VK1J7LYUY09O9PS40,Toyota,1995,orange,Hatchback,diesel,manual,gasoline,8,67.75,active,951.89,AHIMBAZWE MPUHWE Divine Nikita,carpenter,18,west_rusizi,968.26,2006-11-09
+122,4J6RAIV3U3ZNOMSNL,Honda,1998,orange,Van,electric,automatic,gasoline,3,20.39,active,250.69,MURANGWA Pacifique,computer_scientist,100,south_nyamagabe,261.09,2020-07-20
+123,6GZZBTSADJHH22MVA,Ford,1997,metallic_gray,Van,diesel,manual,gasoline,6,6.77,inactive,975.05,ISIMBI KEZA Lysa,hotel_manager,37,north_burera,1059.47,2007-10-03
+124,05IX99YUWWK2U5725,Mercedes,1991,pearl_white,Convertible,petrol,manual,hydrogen,3,53.43,active,516.94,MANZI Israel,painter,75,south_nyaruguru,560.77,2008-04-24
+125,T3JVS0YOE9TI0K108,Toyota,1997,black,Wagon,electric,manual,hybrid,7,70.13,inactive,754.71,DUSHIMIYIMANA Jazzy Bruno,historian,25,west_nyamasheke,757.94,2008-10-17
+126,VHJOSTIANVA34DB51,Ford,1995,gold,SUV,diesel,manual,diesel,7,60.86,inactive,172.47,MUGISHA Puceau Precieux,receptionist,64,west_karongi,229.75,2004-02-28
+127,B1N40PS1AMQ425LQ0,Toyota,1999,chrome,Convertible,petrol,automatic,gasoline,3,18.12,active,852.79,NKUBITOYIMANZI Ruth,programmer,23,west_nyabihu,940.96,2007-08-22
+128,17MT720QF9OZYRDFC,Toyota,2000,chrome,Wagon,diesel,manual,ethanol,5,36.87,inactive,393.09,ISIMBI KEZA Lysa,bricklayer,98,north_rulindo,393.09,2018-08-24
+129,KH1TU31C2LI8O5COV,Volkswagen,1993,metallic_silver,SUV,electric,manual,electric,9,85.48,inactive,533.23,ISHIMWE ARLENE,technician,30,north_gicumbi,623.43,2006-03-07
+130,5KJGTE6TRU78OEN7W,Ford,1994,custom,SUV,electric,manual,hybrid,9,56.55,inactive,595.42,BYIRINGIRO Emmanuel,architect,30,west_karongi,656.53,2004-05-01
+131,GUA17C4TAGN7YKS4E,Ford,1992,chrome,Convertible,petrol,manual,ethanol,7,23.04,active,740.70,NIYIDUHUMUGISHA Eden,administrator,83,south_ruhango,829.91,2015-03-14
+132,2CVZILZ5LDIRPT0J8,Chevrolet,1991,yellow,Sedan,petrol,manual,hybrid,6,37.46,active,387.23,IRAKOZE MURASIRA BERARD,graphic_designer,44,south_kamonyi,399.17,2017-11-24
+133,1YQY3EXE3LBW4YPA7,Nissan,1995,white,Sedan,petrol,automatic,biodiesel,10,39.48,active,925.65,CYUZUZO IRAFASHA Sandra,programmer,100,south_huye,1031.54,2020-07-20
+134,38DFWXDQ6AGZVILM2,Ford,1996,metallic_gray,SUV,petrol,manual,gasoline,2,77.25,inactive,658.93,MWENEDATA Apotre,teacher,62,west_rusizi,726.81,2000-02-21
+135,0WVXNDLMA2EJTHLST,Honda,1995,gray,Hatchback,diesel,manual,hydrogen,7,52.21,inactive,769.20,MUTUYIMANA Joyeuse Ritha,barber,30,south_gisagara,769.20,2007-03-26
+136,524M8EU5DNT6MJUAU,BMW,2000,metallic_green,Truck,diesel,manual,diesel,10,75.37,inactive,704.41,UMUTONI Mireille,biologist,66,south_gisagara,753.59,2024-06-22
+137,CDQ66JI93BZW2Z3IU,BMW,1992,black,Coupe,diesel,manual,hydrogen,2,34.5,inactive,607.85,TWARIMITSWE Aaron,radiologist,46,west_nyamasheke,643.93,2005-05-16
+138,XC7EDCJBRBN09NLP2,Hyundai,1996,black,Truck,electric,automatic,electric,9,71.03,active,503.04,HITAYEZU FRANK DUFF,actress,57,west_rubavu,522.81,2016-03-06
+139,AFAFB4NIK9714XVIJ,Hyundai,1991,matte_black,Van,electric,manual,hybrid,10,55.46,inactive,583.98,RUTAGENGWA ASANTE Bruce,actress,98,kigali_gasabo,583.98,2018-07-23
+140,VSSK1PKNXNQBIPX8W,Mercedes,1998,brown,Van,electric,manual,biodiesel,2,96.7,inactive,846.94,USHIMIRWA INGABIRE Benitha,paramedic,62,kigali_nyarugenge,852.00,2023-03-11
+141,6E2JA7T1JLAOOJ250,BMW,1991,gold,Truck,petrol,automatic,gasoline,8,19.05,inactive,918.46,KANEZA Michele Phoenix,graphic_designer,18,north_rulindo,967.81,2001-09-20
+142,2276POKPGL0LYATQ8,BMW,2000,purple,Truck,petrol,automatic,ethanol,7,76.51,active,294.00,IMANISHIMWE Emmanuel,hotel_manager,63,south_ruhango,295.52,2007-10-02
+143,M8TNLNX75ULZRB4Q9,Honda,1995,black,Truck,electric,automatic,ethanol,7,32.39,inactive,212.83,ISHIMWE AMANI Samuel,pilot,78,west_nyabihu,302.02,2011-09-02
+144,1XCZD8OKFY2K9M5IW,Honda,1992,blue,Coupe,electric,manual,electric,8,86.64,active,298.03,MUTESA Cedric,graphic_designer,89,west_nyamasheke,360.08,2007-09-14
+145,AIB1DV8LHZY1P1IZX,Chevrolet,1994,pearl_white,Convertible,diesel,automatic,hybrid,7,98.31,inactive,302.13,MUTUYIMANA Joyeuse Ritha,bricklayer,60,east_kayonza,423.46,2000-07-18
+146,K5AHSF7ALTM8AXS2L,Audi,1997,metallic_blue,Sedan,diesel,manual,gasoline,9,16.44,active,708.61,BUGINGO ERIC DERICK,teacher,25,south_ruhango,728.18,2017-03-08
+147,O87T1TKUT4LZKZTAO,BMW,1990,silver,Wagon,diesel,automatic,ethanol,10,41.64,active,195.35,NIYONSENGA Valens,accountant,70,east_ngoma,195.35,2023-04-18
+148,5KD8YE4420UHXO8WS,Chevrolet,1999,matte_black,Van,petrol,automatic,ethanol,8,97.34,active,635.40,RUZINDANA Tehila,biologist,89,south_kamonyi,635.42,2012-02-15
+149,0G30DG0T28F6NOGNF,Mercedes,1992,matte_black,Hatchback,electric,manual,diesel,10,3.04,inactive,865.46,IRASUBIZA MUCYO Bertrand,student,54,east_kayonza,923.51,2017-06-13
+150,44AZD1LZZLFPBHFQ2,Hyundai,1997,brown,SUV,electric,automatic,ethanol,5,43.06,active,327.06,BYIRINGIRO Samuel,electrician,58,west_nyamasheke,403.01,2018-11-28
+151,83Q7K7CLYP3XXXHPB,Audi,1995,gray,Sedan,electric,automatic,ethanol,9,63.1,active,463.20,IRAKOZE GIKUNDIRO ANITHA,physicist,39,east_nyagatare,579.04,2016-11-10
+152,C0L01KZE8BEY257AB,Chevrolet,1999,gold,Truck,electric,manual,biodiesel,5,81.78,inactive,926.60,KANEZA Amandine,actress,41,south_nyanza,964.12,2024-05-14
+153,CXPO21SB9NOS0ST11,Nissan,1990,chrome,Wagon,electric,manual,hydrogen,3,63.84,active,645.27,KABANDA MANZI Cedrick,bricklayer,51,west_rutsiro,645.27,2019-04-17
+154,A212DYP4O281PS9N4,Hyundai,1995,matte_black,Convertible,petrol,automatic,hydrogen,2,87.69,inactive,706.84,MUTESA Cedric,coach,20,south_kamonyi,735.43,2024-02-01
+155,D3B5W6F7QBGSU9VXW,Mercedes,2000,metallic_red,SUV,diesel,automatic,electric,4,42.26,inactive,608.11,DUKUNDANE FURAHA Yves Derick,lawyer,28,north_musanze,732.49,2013-06-16
+156,SE3AXXFDRROE8O4D0,Audi,1990,custom,Wagon,petrol,automatic,gasoline,8,55.13,active,405.97,USHIMIRWA INGABIRE Benitha,receptionist,99,south_nyanza,405.97,2009-10-26
+157,2398BLKCI1NMUBV7O,BMW,1992,matte_black,SUV,electric,manual,gasoline,2,44.12,active,763.57,DUKUNDANE FURAHA Yves Derick,translator,79,kigali_gasabo,885.35,2000-05-16
+158,7ESCNETIIGHZT9KH6,Chevrolet,1998,silver,Sedan,diesel,automatic,diesel,2,20.32,inactive,761.75,RUZINDANA Tehila,real_estate_agent,93,east_kirehe,761.75,2011-02-06
+159,88MNL21G0YOOLDNG3,Volkswagen,1997,blue,Wagon,electric,automatic,hydrogen,2,73.79,active,967.61,MUTUYIMANA Joyeuse Ritha,judge,76,kigali_nyarugenge,967.61,2014-11-14
+160,S2SENCGLCMXBB707L,Toyota,1998,metallic_blue,Sedan,electric,manual,gasoline,9,30.37,inactive,899.39,MUGISHA Puceau Precieux,veterinarian,52,south_kamonyi,1020.23,2013-09-17
+161,1LFGKWVZEKEJKGDWE,Mercedes,1998,yellow,Convertible,diesel,manual,biodiesel,8,38.81,active,615.49,ABEZA Happiness Mary Reply,graphic_designer,55,south_nyaruguru,747.49,2001-08-19
+162,MEORZTQ4SWFKU3Q0V,BMW,2000,black,Coupe,electric,manual,hydrogen,3,23.83,inactive,168.25,NDAYISHIMIYE PLACIDE,cleaner,26,kigali_kicukiro,169.58,2023-03-22
+163,0D65MFLJHGMEZ977M,Ford,1994,gray,Sedan,diesel,automatic,diesel,3,93.22,inactive,414.23,CYIZERE Happy,builder,39,north_gicumbi,508.06,2023-11-16
+164,3PUIN8J4SGBEFZ2A2,Toyota,1998,black,Truck,petrol,automatic,electric,8,27.19,inactive,577.73,UHIRIWE CHRISOSTOM,actor,93,east_bugesera,613.53,2020-01-04
+165,ES2AT6YDXAMOKVVAG,Chevrolet,1997,matte_black,SUV,petrol,manual,diesel,4,81.41,active,241.13,DUSHIMIYIMANA Jazzy Bruno,singer,41,kigali_nyarugenge,259.62,2001-04-01
+166,XLCBB0A1EA9JAZ7ZB,Mercedes,1990,white,Van,petrol,manual,hybrid,8,95.41,active,334.61,INEZA TETA LANDRA,designer,19,west_nyabihu,334.61,2011-05-10
+167,6DPFSTT3Y7286CIOS,Volkswagen,1992,metallic_green,SUV,petrol,automatic,hydrogen,3,32.81,active,926.77,INEZA Bright,counselor,98,east_gatsibo,1049.01,2018-04-16
+168,40Q05Y346P8LHNZC3,Chevrolet,1992,gold,Coupe,petrol,automatic,electric,5,24.44,active,192.16,MAJURA Antony,writer,51,north_musanze,273.02,2019-08-22
+169,W1HG9FTBV4IEC63TI,Honda,1992,chrome,Sedan,petrol,manual,hybrid,2,46.91,active,789.73,AMIZERO IRIZA Peace Mary,chemist,100,south_muhoza,851.54,2023-11-15
+170,4AZ87HSYKWVNB2OZI,Honda,1999,brown,Convertible,petrol,automatic,hybrid,7,25.18,active,480.29,AHIMBAZWE MPUHWE Divine Nikita,real_estate_agent,50,north_rulindo,575.59,2002-01-02
+171,U5JJDI20D6YL1E9AI,Toyota,2000,blue,Sedan,electric,manual,electric,6,89.26,active,236.44,BIRAMAHIRE Dan Bellamy,economist,91,east_gatsibo,236.44,2015-01-10
+172,MTSJJYNLS7UB9V0WD,Chevrolet,1999,metallic_black,Hatchback,electric,manual,biodiesel,4,71.25,inactive,824.92,HAPPY David,artist,73,east_nyagatare,857.85,2006-10-18
+173,8XLD67GEH05X0W4VT,BMW,1995,red,Hatchback,petrol,manual,biodiesel,5,64.8,active,855.27,KABANDA JORDAN,builder,19,south_muhoza,987.67,2018-10-24
+174,9J4ZNK9P1LPRAR5XL,Honda,1997,brown,Wagon,electric,manual,diesel,10,57.92,inactive,766.11,NKUBITOYIMANZI Ruth,cleaner,31,east_kirehe,889.49,2002-07-05
+175,YS2IXV6S73GLJ8T9H,Volkswagen,1991,gray,SUV,electric,automatic,ethanol,6,72.95,active,575.07,AMIZERO NSABIMANA Peace Tresor,physicist,27,east_ngoma,616.86,2004-12-15
+176,YUWTU41Z89NHTGJMG,Mercedes,1996,white,Sedan,petrol,manual,biodiesel,9,12.49,inactive,240.94,NDAYISHIMIYE PLACIDE,truck_driver,22,west_rusizi,240.94,2006-03-23
+177,NBUO5GXGCJ5L50Q4D,Toyota,2000,blue,Coupe,petrol,automatic,hydrogen,9,41.51,inactive,319.02,SHEMA ALAIN BARSIME,actor,62,north_musanze,319.02,2001-09-14
+178,3HXJFORA1IAIXEG2H,Mercedes,1998,gray,Convertible,petrol,manual,electric,5,30.59,active,380.67,SASHA Ntwali,machinist,34,south_ruhango,421.89,2009-01-25
+179,B3L7XGSXMP1ZJSH4N,Ford,2000,orange,Wagon,petrol,automatic,electric,4,75.97,active,231.38,IRASUBIZA Divine,waitress,77,south_nyaruguru,273.37,2016-01-11
+180,FEZ9XODHI8I3Q9JY1,Toyota,1998,metallic_red,SUV,petrol,automatic,ethanol,9,44.44,inactive,233.24,UWASE Lina,lawyer,44,west_nyamasheke,326.12,2021-12-18
+181,03QZJW5LKX60E8FSQ,Audi,1991,matte_black,Hatchback,diesel,manual,electric,7,26.31,active,182.49,BYIRINGIRO Emmanuel,electrician,100,west_nyamasheke,182.49,2019-07-05
+182,Q8RZALM4I4443PGFH,Ford,1990,orange,SUV,petrol,automatic,hydrogen,3,81.75,active,554.77,ATUMANYIRE Winny Darlen,programmer,30,west_rusizi,641.70,2024-04-10
+183,OLYIABKF5S3GQQ6II,Hyundai,1993,brown,SUV,diesel,automatic,ethanol,3,39.49,active,453.21,NIYONSENGA Valens,scientist,22,south_huye,488.89,2015-10-08
+184,4OA8JD2LAJ20OF9K6,Honda,2000,green,Sedan,electric,manual,diesel,4,2.12,inactive,392.85,INEZA Bright,software_engineer,19,south_muhoza,487.84,2019-12-17
+185,LOUAM4XMR6BGQL7XO,Toyota,1997,brown,Convertible,diesel,automatic,diesel,3,48.8,inactive,445.46,IMANISINGIZWE KAMANA Adeodatus Clare,blacksmith,73,east_gatsibo,617.15,2020-12-18
+186,99HF0740S2Z6CQ8G0,Audi,1997,pearl_white,Sedan,diesel,automatic,biodiesel,4,50.06,inactive,896.53,IMANISINGIZWE KAMANA Adeodatus Clare,firefighter,66,west_rubavu,943.81,2016-06-02
+187,LWFZP40OIRXZAIFX8,Ford,1990,metallic_gray,Sedan,electric,automatic,biodiesel,4,48.07,inactive,856.46,MANZI Israel,fisherman,24,east_rwamagana,877.25,2000-02-25
+188,HQDKZZ115F6GOCQMR,Chevrolet,2000,metallic_blue,Hatchback,petrol,manual,hybrid,3,57.63,inactive,569.35,TUYUBAHE EDOUARD,gardener,82,north_rulindo,619.66,2015-10-21
+189,R8DN5PT06V4PK3DBR,Mercedes,1996,gold,Coupe,petrol,manual,gasoline,2,23.86,inactive,652.57,Byiringiro Aloys,doctor,90,east_ngoma,652.57,2007-03-22
+190,E3GJ5R002YI08GMVY,Toyota,2000,blue,SUV,electric,automatic,biodiesel,7,59.29,inactive,688.29,TUYUBAHE EDOUARD,other,68,south_nyaruguru,761.23,2003-09-10
+191,21KK25BZ53ALDYPX1,Honda,1991,purple,Sedan,petrol,manual,biodiesel,7,36.74,inactive,825.16,BYIRINGIRO Samuel,chemist,38,kigali_gasabo,1015.90,2012-03-27
+192,TIWGMVNX7OS18CB2D,Honda,2000,metallic_silver,Wagon,diesel,manual,diesel,7,24.91,active,815.86,UJENEZA Divine,receptionist,51,south_gisagara,815.86,2020-02-03
+193,0Z28VKREHXNT4BAQM,BMW,1993,purple,SUV,diesel,automatic,electric,9,30.01,inactive,992.13,IMANISHIMWE Emmanuel,hairdresser,91,kigali_nyarugenge,1017.68,2022-07-16
+194,V83OBHOCXN56HENZ3,Nissan,1995,gold,Hatchback,electric,manual,electric,4,18.45,active,627.17,NZAMBAZAMARIYA Rosine,technician,73,west_rutsiro,627.17,2005-07-01
+195,UUYSHTIG38RSEFAOU,Audi,1991,black,Wagon,electric,automatic,biodiesel,9,27.6,active,693.46,KEZA LISA RURANGIRWA,consultant,86,north_gakenke,726.97,2003-01-26
+196,X7558AOF76OB9OXZQ,Toyota,1990,metallic_black,Sedan,diesel,manual,diesel,3,69.0,active,241.77,NSHUTI MULINDWA Christian,surgeon,62,north_rulindo,416.35,2004-12-04
+197,XPXGBY8EQ2SPTMG23,Chevrolet,2000,metallic_black,Coupe,diesel,manual,biodiesel,7,81.65,inactive,911.44,MWENEDATA Apotre,security_guard,61,south_nyamagabe,1057.64,2017-03-03
+198,QUN10DP4M2QY88SEU,Nissan,1993,metallic_gray,Sedan,diesel,manual,biodiesel,9,7.05,active,636.23,ISHARA Gold,bricklayer,49,north_musanze,811.42,2021-12-23
+199,6RNMZDXGW0U81PQJ4,Chevrolet,1992,custom,Van,electric,automatic,biodiesel,2,97.63,inactive,491.73,KEZA Delice,dentist,74,kigali_gasabo,498.82,2004-12-11
+200,DNXXTQTGU19WT9PL0,Chevrolet,1996,metallic_silver,Coupe,electric,manual,diesel,4,68.68,active,897.27,MANISHIMWE Yvette,electrician,35,east_ngoma,1097.01,2018-08-24
+201,7M8CH9P04D8W6T0WQ,Audi,1997,green,SUV,electric,manual,biodiesel,7,33.96,inactive,823.24,ISHIMWE ARLENE,farmer,96,east_ngoma,823.45,2014-08-02
+202,UN1UILJSN0X4HSKPA,Hyundai,1995,metallic_red,Hatchback,petrol,manual,gasoline,3,25.99,inactive,206.41,IMPANO Blessed Winner,hotel_manager,39,south_kamonyi,245.35,2002-09-06
+203,0RNDMCVJGXJXQQDH7,Audi,1994,metallic_black,Convertible,diesel,automatic,gasoline,10,67.83,active,701.90,TWARIMITSWE Aaron,optician,63,west_ngororero,897.35,2010-10-14
+204,QWSRKTC93Y7MPTR4H,Ford,1999,metallic_black,SUV,electric,manual,gasoline,4,69.54,active,772.49,MUHIZI LILIAN BRIAN,physicist,65,east_bugesera,772.49,2013-05-26
+205,Y7PXSA7XZLION42E0,Audi,1995,gold,Hatchback,petrol,automatic,diesel,6,72.21,inactive,703.67,NSHUTI ISHIMWE ANGELO JOSEPH,composer,20,north_gicumbi,743.98,2008-04-20
+206,OYV64IGWC0JDZECSS,Hyundai,1996,metallic_gray,Convertible,diesel,automatic,electric,5,88.29,active,806.34,ISHIMWE Kevine,construction_worker,50,west_rusizi,870.06,2015-05-12
+207,C47VEYEM1JHIBNOE2,Toyota,1996,blue,Convertible,electric,manual,gasoline,10,67.22,inactive,501.19,SUGIRA Yvan,bricklayer,32,east_gatsibo,632.81,2000-04-11
+208,RFMJMNZIW1KASFPV4,Mercedes,1999,brown,Truck,diesel,automatic,ethanol,3,13.15,inactive,721.94,HAPPY David,banker,85,south_kamonyi,909.69,2020-10-05
+209,KX9QI2FKA40L21QFD,Honda,1992,matte_black,Convertible,petrol,automatic,hydrogen,8,59.05,active,997.24,MUTESA Cedric,electrician,82,east_nyagatare,1096.71,2019-04-24
+210,GPGPCWICAGJ177ENM,Toyota,1997,metallic_red,SUV,petrol,manual,hybrid,9,82.76,inactive,855.20,RUKUNDO Honoré,farmer,21,south_muhoza,983.78,2019-01-22
+211,CQJGPRY2J5UGQWZDG,Nissan,1993,green,Truck,diesel,automatic,hybrid,2,90.03,inactive,778.49,DUSHIMIYIMANA Jazzy Bruno,cleaner,27,north_gicumbi,883.71,2023-09-15
+212,VC7NYCVFXCXTMMFUE,Chevrolet,1993,blue,Truck,diesel,manual,gasoline,4,86.04,inactive,739.78,ISHIMWE NZIZA Angelique,bricklayer,35,south_huye,935.42,2023-02-09
+213,EPAQS5L2COEH3RVG7,Toyota,2000,metallic_blue,Wagon,diesel,automatic,hydrogen,6,35.9,inactive,944.44,ABAYO Moise,designer,45,north_musanze,1018.22,2011-02-27
+214,LAKEKZAAGXLXBQBJQ,Hyundai,1996,yellow,SUV,electric,manual,ethanol,4,15.64,active,574.08,IRAKOZE PRINCE BONHEUR,firefighter,88,east_ngoma,580.39,2001-10-14
+215,UFCVN3HLNNOJKOZX3,Honda,1990,brown,Coupe,diesel,automatic,diesel,2,93.1,active,429.84,WIHOGORA Florence,blacksmith,35,south_kamonyi,448.89,2012-01-26
+216,BGQUH4P44QFVEUBFT,Chevrolet,1999,metallic_silver,Hatchback,diesel,manual,electric,5,20.08,active,223.66,UWASE Sonia,pilot,90,east_kayonza,365.79,2021-01-19
+217,R3TJLCY0Y8KB1JQQ5,BMW,1999,yellow,Van,electric,automatic,biodiesel,7,70.25,inactive,833.21,AMIZERO IRIZA Peace Mary,lawyer,79,kigali_kicukiro,833.21,2014-01-18
+218,BYHCHMOV4LKK3NEHM,Honda,2000,green,Truck,petrol,manual,diesel,10,93.3,active,380.84,DUKUNDANE FURAHA Yves Derick,actress,29,kigali_gasabo,580.21,2011-01-12
+219,DOKLEXJLWJ8KN1S95,Audi,1996,metallic_red,Sedan,electric,manual,ethanol,10,95.6,inactive,795.01,NIYOMUNGELI Aline,farmer,52,west_rusizi,953.03,2022-03-03
+220,LWD9F30WQZGJXTO94,Ford,1990,orange,Hatchback,petrol,manual,electric,4,80.54,inactive,239.92,UWASE UTUJE Sandrine,physician,38,east_kirehe,284.38,2018-12-07
+221,65PM6REX3FG325EYA,Nissan,1993,metallic_red,Truck,diesel,manual,diesel,4,49.0,inactive,390.10,HAPPY David,agriculturalist,85,west_karongi,480.86,2001-05-27
+222,SIM7MXCZWO4NQJBRO,Ford,1990,custom,Coupe,petrol,automatic,electric,3,21.66,inactive,695.16,NSHUTI MULINDWA Christian,actress,75,south_huye,873.20,2013-09-23
+223,NSICHH17FERZ0UM3K,Honda,1991,metallic_green,Truck,petrol,automatic,gasoline,7,9.33,inactive,439.66,IRATUZI Jehova Tsikeni,paramedic,25,south_gisagara,492.91,2008-07-11
+224,GQSOPFUIWSXSJN4GO,Ford,1999,metallic_silver,Convertible,electric,automatic,diesel,9,15.68,active,237.92,UMUTONI UWASE SANDRA,biologist,73,east_kirehe,237.92,2016-11-24
+225,QCXDZU1FCJPA2JK7U,Hyundai,1995,black,Coupe,petrol,manual,ethanol,4,20.2,active,876.57,KEZA Delice,dietitian,32,kigali_gasabo,912.23,2017-03-20
+226,SDH2O977Z5LG06FQJ,Audi,2000,orange,Hatchback,petrol,manual,hybrid,2,92.58,inactive,791.09,IMANISHIMWE Emmanuel,hotel_manager,62,west_rusizi,988.15,2024-07-10
+227,BDSYFNL4252LKNZ9X,Volkswagen,2000,green,Sedan,diesel,automatic,diesel,5,13.01,active,332.59,NIYOMUNGELI Aline,judge,26,west_nyamasheke,424.43,2017-09-13
+228,H85LK4BQJBCFDDH64,BMW,1997,chrome,SUV,electric,automatic,gasoline,8,18.59,inactive,447.21,SUGIRA Yvan,carpenter,74,east_nyagatare,447.21,2008-11-14
+229,CJV24HN4952Y2CGPF,Mercedes,1999,orange,Truck,diesel,manual,hybrid,7,40.78,inactive,508.11,Byiringiro Aloys,professor,58,south_ruhango,534.59,2014-06-17
+230,T0N05AEBWQT7XS32Y,Audi,2000,yellow,SUV,petrol,automatic,biodiesel,6,79.35,inactive,746.15,NKUNDA Isabella,photographer,22,west_nyabihu,905.89,2021-10-12
+231,X4V5KRNK2DL7SUG4V,Honda,1996,white,Van,electric,manual,electric,8,34.48,inactive,631.97,Kayigamba Bonita,technician,76,west_ngororero,835.46,2023-08-19
+232,10N8BMOUIZ4QG2MFA,Hyundai,1995,purple,Sedan,electric,automatic,hybrid,7,20.44,active,566.95,USHIMIRWA INGABIRE Benitha,clerk,29,kigali_nyarugenge,686.99,2013-03-25
+233,HAZGQZT5SO6GG7KAI,Honda,2000,metallic_red,Truck,electric,automatic,diesel,6,49.91,inactive,928.64,SHEMA ALAIN BARSIME,judge,52,north_gicumbi,941.58,2000-01-11
+234,0U5VL76WK8SILC4OL,Audi,1999,white,Van,diesel,automatic,hybrid,6,68.82,active,390.32,NZAMBAZAMARIYA Rosine,translator,80,east_ngoma,390.32,2013-12-27
+235,WZBO6GZD3OHH352CI,Hyundai,1990,metallic_silver,Van,petrol,automatic,hydrogen,2,20.6,inactive,715.39,NDAYAMBAJE Patrick,administrator,94,west_nyamasheke,759.36,2023-07-24
+236,371YNFND5EP5Y675M,Chevrolet,1993,metallic_green,Convertible,diesel,automatic,gasoline,5,98.8,active,475.25,NKUBITOYIMANZI Ruth,graphic_designer,66,south_gisagara,611.86,2012-03-03
+237,0EIODYE4AH4E30MX0,BMW,1997,pearl_white,Sedan,electric,automatic,hydrogen,4,16.38,inactive,716.44,ISIMBI KEZA Lysa,driver,80,south_muhoza,760.73,2002-08-05
+238,WRSCOKSIPWG4I3347,Mercedes,1995,metallic_green,Sedan,petrol,automatic,ethanol,7,30.07,inactive,361.96,AMIZERO NSABIMANA Peace Tresor,scientist,81,north_rulindo,364.49,2017-03-28
+239,2CT1CTAC4IWZEBIAY,Audi,1997,brown,Convertible,diesel,automatic,hybrid,6,22.92,active,760.29,KEZA LISA RURANGIRWA,real_estate_agent,95,south_gisagara,760.29,2024-08-27
+240,MY1IQ9YQ1ZYRIKNJ8,Chevrolet,1995,metallic_green,Van,petrol,manual,ethanol,3,12.44,inactive,510.65,NSHUTI MULINDWA Christian,architect,82,west_rusizi,534.26,2018-02-12
+241,E3O8E6JLL2YUXAC3X,Honda,1994,metallic_silver,Van,electric,automatic,hybrid,3,93.56,inactive,395.30,KAWACU RUGIRANEZA Arnaud Kennedy,gardener,95,south_nyamagabe,535.60,2010-04-04
+242,AT1GY0AMAF0NS1JVA,Chevrolet,1991,metallic_black,SUV,electric,automatic,hybrid,9,36.46,active,359.51,NYISHIMENTE Lois,lecturer,95,east_rwamagana,392.27,2013-09-06
+243,JYJBPJKJ3UEFKF3BB,Volkswagen,1990,metallic_brown,SUV,petrol,manual,hybrid,7,23.31,inactive,284.56,Byiringiro Aloys,politician,94,east_rwamagana,345.19,2003-02-13
+244,9LGUJT1NPEDA6Y2O0,BMW,1993,blue,SUV,electric,automatic,biodiesel,6,98.52,active,272.87,NDAYISHIMIYE Gilbert,counselor,96,south_nyamagabe,318.98,2023-12-03
+245,D1H87PKKZS6NLCBOG,Honda,1994,silver,Sedan,petrol,manual,gasoline,6,1.63,active,249.41,ABAYO Moise,psychologist,46,east_gatsibo,300.88,2023-05-15
+246,IFMB4FLDQ1VXGUXKW,Chevrolet,2000,purple,SUV,petrol,automatic,gasoline,10,42.85,active,280.32,MWENEDATA Apotre,artist,30,south_nyamagabe,413.96,2004-04-10
+247,DQFDO7HKLFMEQVYKY,Honda,2000,purple,Wagon,petrol,manual,electric,4,36.62,inactive,812.53,IZERE JOSHUA,firefighter,42,south_muhoza,1031.86,2000-11-27
+248,C43DM6ACF1Q7FOX78,Chevrolet,1998,brown,Truck,petrol,manual,hydrogen,6,1.24,active,946.12,MAJURA Antony,blacksmith,38,east_rwamagana,946.12,2016-03-11
+249,1V33HJPHGFH2XSEIY,Nissan,1990,pearl_white,Wagon,diesel,automatic,hybrid,2,18.38,inactive,421.43,Ikirezi Unejumutima Honorine,dietitian,60,west_rubavu,544.91,2015-09-20
+250,H7GKEJ95YCMMPO7UU,Ford,2000,black,Wagon,petrol,automatic,electric,5,63.09,inactive,269.32,TWARIMITSWE Aaron,software_engineer,22,south_muhoza,403.19,2011-01-27
+251,1HHWIKQ8X5J46AVNT,Ford,1999,metallic_black,SUV,diesel,manual,hybrid,3,2.2,inactive,711.10,ABAYO Moise,mechanic,32,kigali_nyarugenge,819.71,2012-04-03
+252,1XJNJD2WSIP663QJT,Hyundai,1999,metallic_brown,Coupe,diesel,automatic,gasoline,4,87.28,active,332.51,NKUNDA Isabella,psychologist,22,west_nyabihu,546.62,2020-04-15
+253,U6ZYW6C1V4NI93OZT,Nissan,1992,purple,SUV,diesel,automatic,hybrid,2,9.54,active,549.99,KARIGIRWA Sonia Olga,researcher,61,south_nyaruguru,788.22,2024-08-20
+254,GBJDZ4F691OENFXAO,Chevrolet,1994,metallic_red,Truck,diesel,manual,ethanol,9,52.2,active,978.17,AHIMBAZWE MPUHWE Divine Nikita,painter,80,west_rusizi,1188.86,2021-11-25
+255,4PRMXLPWXAU8O7WCI,Hyundai,1994,metallic_black,Convertible,petrol,automatic,biodiesel,8,73.45,active,823.75,KABANDA JORDAN,machinist,74,west_nyabihu,858.92,2011-07-16
+256,Z40AVQ45WUY74FKNT,Volkswagen,1998,yellow,Truck,electric,manual,hybrid,7,63.7,inactive,356.30,GISINGIZO Gloria,banker,93,south_nyamagabe,371.11,2024-01-01
+257,PDEN6UUMRIZ121KER,Ford,1993,metallic_gray,Van,petrol,manual,diesel,5,49.01,active,866.49,UNYUZIMFURA ISHIMWE Joy Kevin,waitress,61,east_kirehe,907.29,2015-12-20
+258,ALEVUQQHB9C69C8E0,Chevrolet,1990,metallic_green,Sedan,petrol,manual,hybrid,3,59.45,inactive,992.28,ISHIMWE Kevine,veterinarian,47,south_nyamagabe,1074.43,2019-12-10
+259,BCED05VWNM1LURSPM,Chevrolet,1998,chrome,Van,diesel,automatic,diesel,2,19.71,active,769.14,NKUBITOYIMANZI Ruth,mechanic,82,east_rwamagana,913.27,2007-02-13
+260,F2HX5GDEHTDPA5JBQ,Volkswagen,1993,custom,Van,petrol,manual,hybrid,9,70.76,inactive,731.26,NDAYISHIMIYE Gilbert,truck_driver,55,east_nyagatare,826.70,2016-05-26
+261,SJ7LKKG7NC5563JO9,Audi,1996,silver,Hatchback,petrol,automatic,ethanol,4,97.7,inactive,677.66,NIYOMUNGELI Aline,farmer,92,south_nyanza,786.58,2006-04-13
+262,25OCZ261RUIY3EAYV,Hyundai,1999,matte_black,Coupe,diesel,automatic,diesel,3,94.77,active,501.13,IRAKARAMA Laurent,pilot,91,south_gisagara,752.54,2004-07-24
+263,D6PYJ4UGUZBTXQ7ID,Nissan,1996,metallic_silver,Wagon,petrol,manual,ethanol,2,86.53,inactive,487.73,MWENEDATA Apotre,geologist,49,east_nyagatare,590.54,2023-10-25
+264,WGX6WYMKPSQGZK9EW,Toyota,1998,blue,Wagon,petrol,automatic,hybrid,5,51.41,active,871.51,ISHIMWE NDUNGUTSE Charles,coach,56,west_rubavu,1056.34,2021-11-23
+265,NBOTYTAFSR2NNJXP0,Honda,1997,metallic_black,Van,diesel,manual,gasoline,9,79.78,inactive,334.05,SHEMA ALAIN BARSIME,actress,53,south_muhoza,369.56,2003-06-02
+266,6LIM30EZDDEK3OWZV,BMW,1996,orange,Convertible,petrol,automatic,hydrogen,5,20.31,inactive,894.79,NSHUTI MULINDWA Christian,butcher,23,south_gisagara,1002.04,2011-09-07
+267,XVZEXF20QXUQ3OB0F,Hyundai,1991,black,Truck,electric,automatic,ethanol,9,22.53,inactive,886.26,DUKUNDANE FURAHA Yves Derick,mechanic,29,kigali_gasabo,987.72,2022-07-11
+268,5Q1RNE2HORU4DFHIU,Ford,1993,yellow,Sedan,diesel,manual,gasoline,4,73.76,active,548.08,KANEZA Michele Phoenix,waiter,44,kigali_gasabo,606.16,2015-06-01
+269,340DU0JM07198OKLO,Chevrolet,1998,brown,Wagon,diesel,automatic,biodiesel,3,49.47,active,655.46,KARABO Nadege,hairdresser,81,east_nyagatare,819.81,2007-01-15
+270,MNPKAHLE7N8A8NEE2,Mercedes,1998,matte_black,Truck,diesel,automatic,biodiesel,7,16.81,active,562.27,MUNEZERO IMPANO CHRISTELLA,researcher,32,north_gakenke,628.51,2007-05-24
+271,AWM6MSTMJ6Q7YH41N,Ford,1994,metallic_black,SUV,petrol,manual,gasoline,5,4.0,inactive,923.34,MUGISHA ABBIGAEL,banker,61,east_ngoma,1129.86,2002-12-16
+272,DZHVF8BC8THUWCQOS,BMW,1997,metallic_green,Coupe,electric,manual,ethanol,2,35.07,active,380.35,AMIZERO IRIZA Peace Mary,construction_worker,28,north_gakenke,486.55,2023-09-14
+273,LQ2V6NAHHSFGE6GMX,Chevrolet,1994,metallic_brown,Van,petrol,automatic,ethanol,8,52.91,active,435.96,UMWALI Cynthia,computer_scientist,53,west_nyabihu,677.89,2015-03-27
+274,XV0HRE1HSNQF6TIOA,Nissan,1993,red,Coupe,petrol,manual,biodiesel,7,18.74,inactive,710.12,UMUTONI Mireille,geologist,21,east_rwamagana,904.01,2024-01-05
+275,KPXY1PSC5HUBTMAQJ,Honda,1992,custom,SUV,electric,automatic,hybrid,9,58.25,active,434.19,SASHA Ntwali,actress,51,west_karongi,624.85,2002-11-16
+276,LR23A47CWW17ADAIH,Nissan,1993,green,Truck,electric,manual,gasoline,8,81.59,inactive,571.47,BIRAMAHIRE Dan Bellamy,lawyer,74,south_huye,571.47,2016-04-28
+277,1PL2NYGVZETGTZRBF,BMW,1992,metallic_silver,Wagon,diesel,manual,hybrid,8,48.44,active,605.89,ABEZA Happiness Mary Reply,electrician,87,west_nyabihu,880.71,2008-08-15
+278,WM28SH6TNQZEVG9RY,Nissan,1998,metallic_gray,Truck,petrol,manual,electric,10,90.49,inactive,449.40,IZERE JOSHUA,paramedic,89,east_kirehe,529.89,2001-12-11
+279,Y9C1NV37IY8I963AJ,Chevrolet,1993,red,Sedan,petrol,manual,biodiesel,4,20.42,inactive,684.35,NSHUTI MULINDWA Christian,plumber,82,south_kamonyi,719.49,2005-08-05
+280,EEQ0R5FA8QHAGM4V5,Hyundai,1994,metallic_blue,Truck,diesel,automatic,gasoline,7,76.19,active,385.49,GISINGIZO Gloria,photographer,87,east_kayonza,607.35,2024-02-02
+281,NJF2E7QUCVVKMKYB3,Honda,1994,metallic_brown,SUV,diesel,automatic,biodiesel,6,15.09,inactive,839.67,IMFURA MURINDA Hyguette,civil_engineer,59,west_nyamasheke,839.67,2017-06-02
+282,G1GY4D5A5KMCFNZ5W,Ford,1999,metallic_brown,Sedan,diesel,manual,electric,9,33.39,active,284.65,RUKUNDO Honoré,technician,44,west_karongi,369.75,2004-08-20
+283,E12NMTE7NOZJUNTF5,BMW,1990,purple,Convertible,petrol,automatic,electric,9,27.3,inactive,478.41,TELIMBERE INEZA Alia Ange Stevine,designer,85,west_nyamasheke,735.85,2014-10-17
+284,R6HP6DH5WMWB05S8B,Chevrolet,1991,blue,Convertible,petrol,manual,gasoline,9,0.21,inactive,892.99,KARIGIRWA Sonia Olga,butcher,28,east_nyagatare,1063.48,2014-08-25
+285,UTND36BAOV11R2H3E,Mercedes,2000,gray,Coupe,electric,manual,hybrid,3,1.93,active,411.43,IRASUBIZA Divine,paramedic,61,north_rulindo,495.61,2012-10-09
+286,FVZ9V63CFFUQKALPW,Honda,1992,gold,Hatchback,diesel,automatic,gasoline,4,4.9,active,339.09,NSHUTI MULINDWA Christian,hotel_manager,79,east_rwamagana,618.10,2000-06-28
+287,INBCB7P0W2Q43I1MA,Nissan,1992,blue,Coupe,electric,automatic,ethanol,6,45.29,active,830.42,ISHIMWE Vainqueur,fisherman,90,west_rusizi,881.98,2018-08-16
+288,DRRYJSYLOKLWL1PHO,Hyundai,1991,red,Coupe,electric,manual,diesel,6,59.07,active,524.25,UWASE TETA Paola,librarian,78,north_gicumbi,624.83,2010-08-21
+289,FPK1XE73EMDYGJX8F,Chevrolet,2000,green,Hatchback,petrol,manual,hydrogen,8,4.99,active,530.38,IRAKOZE MURASIRA BERARD,student,41,south_huye,768.11,2022-07-10
+290,92987NXORO7AAYUCN,Chevrolet,1996,gray,Hatchback,electric,automatic,diesel,8,92.82,inactive,389.66,ISHARA Gold,builder,84,south_ruhango,530.15,2014-11-27
+291,HME429J2VG3SDE2S6,Toyota,1991,metallic_brown,Hatchback,petrol,automatic,diesel,4,51.8,active,614.46,ISHARA Gold,pilot,60,north_gakenke,849.47,2019-12-04
+292,L1DF3FZL4WP9DHZOP,BMW,1991,orange,Convertible,petrol,manual,gasoline,7,62.57,inactive,417.08,RUKUNDO Honoré,actor,69,west_rusizi,665.06,2000-11-22
+293,GH4JEWQCRXDTB6HV7,Mercedes,1992,metallic_gray,Coupe,electric,automatic,hybrid,4,66.52,active,969.39,UHIRIWE CHRISOSTOM,lawyer,56,kigali_gasabo,1104.53,2021-05-09
+294,BBNPSYG1ATSKQ9T0P,Volkswagen,1995,orange,Wagon,petrol,manual,ethanol,9,7.51,inactive,729.01,IRAKOZE MURASIRA BERARD,lawyer,43,south_muhoza,816.18,2000-08-21
+295,UGJLTEX6YMYLRXCLS,Mercedes,1998,gold,Wagon,electric,automatic,electric,2,65.57,active,704.82,MANISHIMWE Yvette,biologist,73,east_gatsibo,866.11,2013-04-08
+296,4A6534OLZNR99OGWN,Volkswagen,1995,metallic_gray,Truck,electric,manual,ethanol,2,95.64,active,814.13,NSHUTI ISHIMWE ANGELO JOSEPH,plumber,90,west_ngororero,814.13,2017-12-07
+297,FSW8H0REGM6N05PTF,Chevrolet,1994,chrome,Van,petrol,manual,biodiesel,7,64.54,active,562.64,BIGWI SHYAKA Valentin,designer,100,east_kirehe,706.57,2012-12-27
+298,1QCA44W8UVCYHLLIH,Ford,1996,blue,Wagon,diesel,manual,ethanol,10,2.05,active,623.75,BIENVENUE ALLIANCE DIEU D' AMOUR,waiter,67,east_rwamagana,864.45,2002-03-01
+299,03Y6KT7Y3GRCXHQC8,Audi,2000,matte_black,Coupe,electric,automatic,gasoline,2,2.12,active,2000.12,UMWALI Cynthia,surgeon,58,west_rutsiro,953.99,2023-10-22
